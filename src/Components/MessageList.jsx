@@ -6,7 +6,7 @@ function MessageList() {
 
   useEffect(() => {
     axios.get(
-        "https://aj-pager-5be32-default-rtdb.asia-southeast1.firebasedatabase.app/faiz.json"
+        "https://pagerapp-fa9fd-default-rtdb.asia-southeast1.firebasedatabase.app/faiz.json"
       )
       .then((response) => {
         let messageList = [];
