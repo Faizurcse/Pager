@@ -42,7 +42,7 @@ function Form() {
    
 
     const response = await axios.post(
-      "https://aj-pager-5be32-default-rtdb.asia-southeast1.firebasedatabase.app/faiz.json",
+      "https://pagerapp-fa9fd-default-rtdb.asia-southeast1.firebasedatabase.app/faiz.json",
       {
         name: name,
         message: message,
